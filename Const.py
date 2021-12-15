@@ -5,6 +5,7 @@ POSTPONE = 'Отложим'
 CHOOSE_TOPIC = 'Выбери предмет'
 WHAT_HOMEWORK = 'А что задали?'
 NEED_HELP = 'Нужна помощь?'
+I_NEED_HELP = 'Нужна помощь'
 ASK_HELP_NOW = 'Ты можешь попросить помощи сейчас?'
 WHEN_FINISH = 'Когда закончишь напиши /vso'
 LETS_POSTPONE = 'Тогда давай отложим и сделаем пока что-то другое'
@@ -37,6 +38,7 @@ CALLBACK_10 = '10'
 CALLBACK_11 = '11'
 CALLBACK_12 = '12'
 CALLBACK_13 = '13'
+CALLBACK_14 = '14'
 
 MAP_1 = {YES: CALLBACK_1,
          NOT_TODAY: CALLBACK_2,
@@ -49,7 +51,8 @@ MAP_3 = {NO: CALLBACK_6,
          YES: CALLBACK_7}
 
 MAP_4 = {NOT_YET: CALLBACK_8,
-         FINISH: CALLBACK_9}
+         FINISH: CALLBACK_9,
+         I_NEED_HELP: CALLBACK_14}
 
 MAP_5 = {YES: CALLBACK_10,
          NO: CALLBACK_11}
